@@ -8,7 +8,7 @@ int R, C;
 typedef struct st{
 	int d, r, c;
 }ROBOT;
-ROBOT QUE[100 * 100 * 20];
+ROBOT QUE[100 * 100 * 4];
 int WP, RP;
 ROBOT dest;
 int dr[] = { 0, 0, 0, 1, -1 };
